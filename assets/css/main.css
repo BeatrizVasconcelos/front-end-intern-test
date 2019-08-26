@@ -4,6 +4,7 @@
 /* font-family: 'Open Sans', sans-serif; */
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,700&display=swap');
 
+/* Corpo do site */
 body {
     margin: 0;
     padding: 0;
@@ -13,7 +14,7 @@ body {
     background-size: auto;
 }
 
-
+/* Título */
 h1 {
     font-family: 'Cookie', cursive;
     font-size: 71px;
@@ -21,15 +22,58 @@ h1 {
     width: 500px;
     margin: 70px auto 10px auto;
     text-align: center;
-    font-weight: normal;
+    font-weight: lighter;
+    line-height: 50px;
     
 
 }
-
+/* Cabeçalho */
 header {
 	background-color: #ACD0B6;
-	padding: 20px 0 20px 0;
+    padding-top: 20px;
+    padding-bottom: 20px;
     display: flex;
     justify-content: center;
 }
+
+/* Formulário */
+/* Construindo um formulário com Flexbox */
+#contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+/* Estilizando os campos */
+.flex-item {
+    border: none;
+    border-radius: 10px;
+    width: 500px;
+    padding: 10px 10px 10px 10px;
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif; 
+    margin-top: 20px;
+    height: 40px;
+}
+
+.campoMensagem {
+    padding: 10px 10px 10px 10px;
+    height: 200px;
+}
+
+.botao {
+    border-radius: 10px;
+    width: 500px;
+    padding:0 0 0 10px;
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif; 
+    font-weight: bold;
+    color: #FFF;
+	background-color: #71A397;
+	box-shadow: 0px 5px #4A8978;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
 
